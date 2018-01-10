@@ -1,0 +1,21 @@
+Committee Members:
+Prof. Yong-Bin Kim (Advisor)
+Prof. Fabrizio Lombardi
+Prof. Nian X. Sun
+ 
+Abstract:
+As the memory market becomes more diverse, the conventional memory hierarchies composed of Flash memory, DRAM and SRAM are now being asked to have various and segmented system to fill the gap between the current memory systems in terms of the cost and performance. The nonvolatile memory will upgrade the current memory subsystems and enable the stable system architectures that retain their state even when power is off. The emerging memories will not directly replace the existing memory (DRAM and Flash
+memory) but will make a new memory class. The attributes of STT-MRAM can lead to adopt in-memory computing architectures for the embedded memory solution SoC. In these circumstances, the accurate and scalable model of magnetic tunnel junction (MTJ) is required to accelerate the commercialization of STT-MRAM.
+ 
+In this thesis, after  the MTJ basics is introduced as a storage element and the magnetic dynamics to utilize the electron spins as wells as the electron charges,  the parallel and anti-parallel magnetization configuration is explained in terms of the band structure to understand the basic operation of the MTJ in memory cell. To demonstrate the viability of MTJ as a memory cell, the switching mechanism, reading/writing scheme, and some important parameters in STT-MRAMs such as TMR (Tunneling Magnetoresistance), Switching current (Ic), and Thermal Stability (?) are investigated.
+ 
+As a test vehicle of the technology, a set of RAM is designed in this research to show its efficiency and advantages of MTJ memory cell.  As a first step of the design, the scalable model of a MTJ that accurately depicts the spin-transfer torque dynamic switching behavior of a MTJ is verified along with its bias voltage and Temperature dependency. The model integrates the physical models of static and dynamic behaviors; many experimental parameters are provided to see the process variations, especially temperature and bias voltage perspective. Based on the verified model, a set of RAM circuit is designed, and the designed STT-MRAM circuit's behavior and performances are analyzed to find the optimum tunnel magnetoresistance (TMR) ratio and switching performance. Of the compact 
+model of the CoFeB/MgO PMA-MTJ (perpendicular magnetic anisotropy MTJ).  
+The whole circuit was designed in a standard 45nm CMOS technology using MTJ. The measurement shows that the switching delay of MTJ increases by 5.5ns with growing tunnel barrier oxide (MgO) thickness from 0.85nm to 1.15nm. A bit longer delay for writing is observed as expected. The simulation shows a trade-off between memory access time and MTJ area as the switching delay of MTJ decreases by 6.5ns when the MTJ area increases from 10*10nm to 40*40nm. For reading operation of the memory, the conventional sense amplifier circuit is employed to detect the stored bit-cell. In the reading peripheral circuits including sense amplifier, the fixed reference voltage (0.9V) is used to simplify the analysis. The reading operation and peripheral block of memory circuits is verified successfully with read access time of 1.5ns.
+ 
+ 
+ 
+ 
+Faith Crisley
+Student Services Coordinator
+405 Dana Hall
