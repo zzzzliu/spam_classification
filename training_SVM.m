@@ -1,10 +1,19 @@
-
 load('train.mat');
 
-fprintf('\nTraining SVM... \n')
+fprintf('\nTraining SVM...')
 C = 10;
-model = svmTrain(train{10},label{10}, C, @gaussianKernel);
 
+if kernal == 1
+    fprintf('\nUse Gaussian Kernel\n');
+    model = svmTrain(train{10},label{10}, C, @gaussianKernel);
+elseif kernal == 2
+    fprintf('\nUse Linear Kernel\n');
+    model = svmTrain(train{10},label{10}, C, @linearKernel);
+else
+    fprintf('\nUse Polynomial Kernel\n');
+    model = svmTrain(train{10},label{10}, C, @polynomialKernel);
+end 
+    
 load('test.mat');
 p = svmclassify(model, test);
 

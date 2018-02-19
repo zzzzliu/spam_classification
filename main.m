@@ -1,5 +1,6 @@
 close all; clc
 % Training SVM and Naive Bayes
+kernal = input('Please Choose The Kernel Function for SVM: \n1. Gaussian\n2. Linear\n3. Polynomial\n');
 training_naivebayes;
 training_SVM;
 
